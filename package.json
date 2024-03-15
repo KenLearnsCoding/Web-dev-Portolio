@@ -1,0 +1,27 @@
+{
+  "name": "web-dev-portolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenLearnsCoding/Web-dev-Portolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenLearnsCoding/Web-dev-Portolio/issues"
+  },
+  "homepage": "https://github.com/KenLearnsCoding/Web-dev-Portolio#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  }
+}

@@ -1,0 +1,74 @@
+<%- include('partials/head.ejs') %>
+<%- include('partials/header.ejs') %>
+
+
+<main>
+    <section id="introduction">
+        <h1>Frontend Web 3.0 Developer <br>Based In Toronto</h1>
+        <p>Hi, Im Ken<span aria-hidden="true">🪐</span>. I'm a blockchain and web 3.0 developer. I love to build web 3.0 for our digital world</p>
+        <a href="https://www.ledger.com/academy/what-is-web-30-everything-you-need-to-know" target="blank">
+            <button class="button">
+                <span>What is Web 3.0?</span>
+            </button>
+        </a>
+        <!-- show 2 pieces of my portfolio -->
+        <div class="works">
+            <article class="card healthcare-card">
+                <a href="#">
+                    <div class="card__body">
+                        <h4 class="card__title">Healthcare Project</h4>
+                    </div>
+                </a>
+            </article>
+
+
+            <article class="card cryptoExchange-card">
+                <a href="#">
+                    <div class="card__body">
+                        <h4 class="card__title">Crypto Exchange Project</h4>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <section class="aboutMe">
+        <div class="profile">
+            <h4>About Me</h4>
+            <img src="./img/profile.jpeg" alt="profile pic">
+        </div>
+        <h3>Hi!As a fresh graduate navigating the ever-evolving realm of Web 3.0 and blockchain development, I'm thrilled to showcase my journey, experiments, and creations in this digital space. Embarking on this path, I've delved into the dynamic world of Web 3.0, where innovation knows no bounds. From crafting immersive user experiences to implementing cutting-edge decentralized applications, I've embraced the challenges with fervor and curiosity.</h3>
+    </section>
+
+    <section class="skill">
+        <h2>Skills</h2>
+
+        <!-- <div class="two-columns-fixed"> -->
+        <div>
+            <div class="two-columns">
+                <h3>Languages</h3>
+                <ul>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>PYTHON</li>
+                    <li>HTML</li>
+                    <li>REACT</li>
+                </ul>
+            </div>
+            <div class="two-columns">
+                <h3>Frameworks And Technology</h3>
+                <ul>
+                    <li>Blockchain</li>
+                    <li>Nodejs</li>
+                    <li>WEB3.0</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Path: files/partials/footer.ejs -->
+<%- include('partials/footer.ejs') %>
+
+</body>
+</html>
