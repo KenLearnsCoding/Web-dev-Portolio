@@ -1,18 +1,16 @@
-
-  {
+{
     "version": 2,
     "builds": [
       {
-        "src": "server.js", 
+        "src": "server.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "index.ejs" },
-      { "src": "/about/(.*)", "dest": "views/about.ejs" },
-      { "src": "/contact/(.*)", "dest": "views/contact.ejs" },
-      { "src": "/work/(.*)", "dest": "views/work.ejs" },
-      { "src": "/healthcare/(.*)", "dest": "views/healthcare.ejs" }
+      { "src": "/$", "dest": "/views/index.ejs" },
+      { "src": "/about", "dest": "/views/about.ejs" },
+      { "src": "/contact", "dest": "/views/contact.ejs" },
+      { "src": "/work", "dest": "/views/work.ejs" },
+      { "src": "/healthcare", "dest": "/views/Healthcare.ejs" }
     ]
   }
-  
