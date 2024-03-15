@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "routes": [
+      { "src": "/$", "dest": "/api/index" },
+      { "src": "/about$", "dest": "/api/about" },
+      { "src": "/contact$", "dest": "/api/contact" },
+      { "src": "/work$", "dest": "/api/work" },
+      { "src": "/healthcare$", "dest": "/api/healthcare" },
+      { "src": "/cryptoExchange$", "dest": "/api/cryptoExchange" },
+      { "src": "/weather$", "dest": "/api/weather" }
+    ],
+    "builds": [
+      { "src": "package.json", "use": "@vercel/node" }
+    ]
+  }
