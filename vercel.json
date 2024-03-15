@@ -1,15 +1,32 @@
 {
     "version": 2,
     "routes": [
-      { "src": "/$", "dest": "/api/index" },
-      { "src": "/about$", "dest": "/api/about" },
-      { "src": "/contact$", "dest": "/api/contact" },
-      { "src": "/work$", "dest": "/api/work" },
-      { "src": "/healthcare$", "dest": "/api/healthcare" },
-      { "src": "/cryptoExchange$", "dest": "/api/cryptoExchange" },
-      { "src": "/weather$", "dest": "/api/weather" }
+      { "src": "/$", "dest": "/views/index.ejs" },
+      { "src": "/about$", "dest": "/views/about.ejs" },
+      { "src": "/contact$", "dest": "/views/contact.ejs" },
+      { "src": "/work$", "dest": "/views/work.ejs" },
+      { "src": "/healthcare$", "dest": "/views/Healthcare.ejs" }
     ],
     "builds": [
       { "src": "package.json", "use": "@vercel/node" }
     ]
   }
+
+  {
+    "version": 2,
+    "builds": [
+      {
+        "src": "server.js", // or whatever your entry file is
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "index.ejs" },
+      { "src": "/about/(.*)", "dest": "views/about.ejs" },
+      { "src": "/contact/(.*)", "dest": "views/contact.ejs" },
+      // Add more routes as needed
+      { "src": "/work/(.*)", "dest": "views/work.ejs" },
+      { "src": "/healthcare/(.*)", "dest": "views/healthcare.ejs" }
+    ]
+  }
+  
