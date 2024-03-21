@@ -7,7 +7,7 @@
       }
     ],
     "routes": [
-      { "src": "/$", "dest": "/views/index.ejs" },
+      { "src": "/", "dest": "/views/index.ejs" },
       { "src": "/about", "dest": "/views/about.ejs" },
       { "src": "/contact", "dest": "/views/contact.ejs" },
       { "src": "/work", "dest": "/views/work.ejs" },
