@@ -516,8 +516,8 @@ nav img {
     }
 
     .card {
-        width: 100px; /* Set the width to match the image width */
-        height: 100px; /* Allow the height to adjust based on content */
+        width: 200px; /* Set the width to match the image width */
+        height: 200px; /* Allow the height to adjust based on content */
     }
 
     .two-columns ul {
