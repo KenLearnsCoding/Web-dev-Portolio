@@ -515,6 +515,11 @@ nav img {
         margin: 50px 0;
         width: 80%;
     }
+
+    .card {
+        width: 100px; /* Set the width to match the image width */
+        height: 100px; /* Allow the height to adjust based on content */
+    }
 }
 
 /* Large devices (i.e desktop) */
