@@ -35,6 +35,14 @@
     width: 40%;
 }
 
+@media (min-width: 300) and (max-width: 1600){
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 @media (min-width: 1024) and (max-width: 1600){
     .contact_img img {
         height: 300px;
@@ -45,3 +53,4 @@
         border-radius: 50%;
     }
 }
+
