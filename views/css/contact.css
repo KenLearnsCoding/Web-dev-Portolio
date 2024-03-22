@@ -43,7 +43,7 @@
 
 }
 
-@media (min-width: 1024) and (max-width: 1600){
+@media (min-width: 1024) and (max-width: 2500){
     .contact_img img {
         height: 300px;
         width: 300px;
