@@ -520,6 +520,14 @@ nav img {
         width: 100px; /* Set the width to match the image width */
         height: 100px; /* Allow the height to adjust based on content */
     }
+
+    .two-columns ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 100px 0px;
+    
+    }
 }
 
 /* Large devices (i.e desktop) */
