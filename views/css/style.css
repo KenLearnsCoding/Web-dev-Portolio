@@ -391,7 +391,7 @@ nav img {
     font-size: 1.5rem; /* Adjust font size if needed */
 }
 /* Small devices (i.e tablets in portrait */
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 300px) and (max-width: 1023px) {
     .smallScreen {
         display:flex;
         overflow: hidden;
