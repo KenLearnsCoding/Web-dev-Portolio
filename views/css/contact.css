@@ -1,5 +1,4 @@
-@media screen and (min-width: 1024px) and (max-width: 1440px){
-    
+
 .contact {
     display: flex;
     align-items: center;
@@ -12,7 +11,7 @@
     background-color: black;
     color: white;
     padding: 50px;
-    height: 500px;
+    height: auto;
 }
 
 .contact_img {
@@ -23,8 +22,6 @@
 }
 
 .contact_img img {
-    width: 300px;
-    height: 300px;
     display: flex;
     justify-content: center;
     height: auto;
@@ -37,4 +34,14 @@
     margin: 0 5px;
     width: 40%;
 }
+
+@media (min-width: 1024) and (max-width: 1600){
+    .contact_img img {
+        height: 300px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        border-radius: 50%;
+    }
 }

@@ -34,7 +34,7 @@ app.get('/healthcare', (req, res) => {
 });
 
 app.get('/cryptoExchange', (req, res) => {
-    res.render('cryptoEchange');
+    res.render('crypto');
 });
 
 app.get('/weather', (req, res) => {
