@@ -35,10 +35,32 @@
     width: 40%;
 }
 
-@media (min-width: 375px) and (max-width: 1600){
+@media (min-width: 375px) and (max-width: 1023px) {
     .contact {
-        display: flex;
         flex-direction: column;
+        padding: 25px;
+
+    }
+
+    .contact_img {
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        text-align:start
+    }
+
+    .contact_img img {
+        width: 200px;
+        height: auto;
+    }
+
+    .contact_info {
+        width: 100%;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
 }

@@ -1,19 +1,17 @@
 .container {
     margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
-    padding: 0 40px;
 }
 
 .work_img {
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin: 2rem;
     justify-content: center;
     align-items: center;
-    padding:50px;
     justify-content: space-between;
-    margin: 2rem;
     border-radius: 40px;
     border: 1px solid var(--black);
     background-color: black;
@@ -34,3 +32,15 @@
     align-items: center;
 }
 
+
+@media (min-width: 375px) and (max-width: 1023px) {
+    .container {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work_img {
+        padding-top: 10px 0 0;
+    }
+}

@@ -55,6 +55,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--headline-font);
+    word-spacing: 0.167rem;
+    letter-spacing: 0.12rem;
+    max-width: 70ch;
 }
 
 h1 {
@@ -73,9 +76,7 @@ h3 {
 
 h4 {
     margin-bottom:2rem;
-    word-spacing: 0.167rem;
-    letter-spacing: 0.12rem;
-    max-width: 70ch;
+
 }
     
 p {
@@ -300,7 +301,7 @@ nav img {
     border-radius: 20px;
     overflow: hidden;
     display: flex;
-    height: 400px;
+    height: 300px;
     flex-direction: column;
     justify-content: center; /* Align content to the bottom */
 }
@@ -358,6 +359,7 @@ nav img {
     padding: 100px 10px 0;
     height: auto;
 }
+
 
 .question {
     display: flex;
@@ -463,10 +465,12 @@ nav img {
     }
 
     #introduction h1 {
+        display: flex;
         font-size: 50px;
         justify-content: center;
         align-items: center;
         padding: 10%;
+
     }
 
     #introduction p {
@@ -520,12 +524,14 @@ nav img {
         margin: 50px 0;
         width: 80%;
     }
-
-    .card {
-        width: 200px; /* Set the width to match the image width */
-        height: 200px; /* Allow the height to adjust based on content */
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+        width: 80%;
     }
-
     .two-columns ul {
         display: flex;
         flex-direction: column;
@@ -551,6 +557,15 @@ nav img {
         margin: 1rem;
     }
 
+    .foot ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+        padding: 2rem;
+        width: 50%;
+    }
+
     #introduction {
         display: flex;
         flex-direction: column;
@@ -564,10 +579,19 @@ nav img {
         padding: 100px 40px;
         height: auto;
     }
+    #introduction h1 {
+        text-align: center; /* Center text */
+    }
+
+    #introduction p {
+        text-align: center; /* Center text */
+    }
 
     #introduction a {
         color: white;
     }
+
+    
 
 
     /* Styling the Sections */
@@ -575,7 +599,7 @@ nav img {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 100px 0px;
+        margin: auto 0px;
         height: auto;
         width: 100%;
     }
@@ -611,7 +635,9 @@ nav img {
         width: 50%;
         font-weight: 400;
     }
-
+    .question h2 {
+        text-align: center;
+    }
 
 }
 

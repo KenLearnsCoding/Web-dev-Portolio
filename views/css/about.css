@@ -54,7 +54,7 @@
 }
 
 .focus img {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: 40px;
     border-radius: 40px;
@@ -88,7 +88,7 @@
     }
 
     .about img {
-        width: 300px;
+        width: 200px;
         height: auto;
         border-radius: 50%;
         margin-bottom: 5%;
@@ -101,7 +101,11 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+        padding: 5px;
     }
+
+
+
 
     .focus {
         display: flex;
